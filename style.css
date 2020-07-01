@@ -29,7 +29,7 @@ body {
 
 .container {
   /* background-color: #fff; */
-  background-color:#1D2D3F;
+  /* background-color:#1D2D3F; */
   width: 90vh;
   height: 60vh;
   /* padding: 50px 60px; */
@@ -51,7 +51,7 @@ text-align: center;
 
 
 .div1 {
-  background-color:#1D2D3F;
+  /* background-color:#1D2D3F; */
   /* background-color:#fff; */
   height: 100%;
   width: 100%;
@@ -223,7 +223,7 @@ h2.no-breaks {
 @media only screen and (max-width: 850px) {
   .container {
     /* background-color: #fff; */
-    background-color: #1D2D3F;
+    /* background-color: #1D2D3F; */
     width: 70vh;
     height: 50vh;
 }
@@ -232,8 +232,19 @@ h2.no-breaks {
 @media only screen and (max-width: 650px) {
   .container {
     /* background-color: #fff; */
-    background-color: #1D2D3F;
+    background-color:none!important;
     width: 50vh;
-    height: 30vh;
-    margin-top: -500px;;
+    height: 100%;
+    /* margin-top: -200px; */
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-shadow: none;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
 }
